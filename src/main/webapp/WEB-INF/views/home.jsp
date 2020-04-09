@@ -5,10 +5,13 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
+	<h1> Hello world! </h1>
+	
+	<P> The time on the server is ${serverTime}. </P>
+	
+	<form action="home" method="post">
+		<input type="text" name="userName"><br>
+		<input type="submit" value="Login">
+	</form>
 </body>
 </html>
