@@ -9,7 +9,7 @@
 	
 	<P> The time on the server is ${serverTime}. </P>
 	
-	<form action="home" method="post">
+	<form action="user" method="post">
 		<input type="text" name="userName"><br>
 		<input type="submit" value="Login">
 	</form>
